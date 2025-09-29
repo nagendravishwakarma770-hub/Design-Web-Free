@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Free & Affordable Alternatives — Design / Dev Tools</title>
+  <style>
+    /* Basic reset and layout */
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:linear-gradient(180deg,#071029 0%, #071827 100%);color:#e6eef6;line-height:1.5}
+    .wrap{max-width:1000px;margin:36px auto;padding:20px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{font-size:20px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .card h3{margin:0 0 8px;font-size:16px}
+    .card p{margin:0 0 12px;color:var(--muted);font-size:14px}
+    .list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+    .item{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-radius:8px;background:var(--glass);border:1px solid rgba(255,255,255,0.02)}
+    .item .meta{display:flex;flex-direction:column}
+    .item .meta b{font-size:14px}
+    .item .meta span{font-size:12px;color:var(--muted)}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:6px 10px;border-radius:8px;color:var(--accent);text-decoration:none;font-weight:600;font-size:13px}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media (max-width:520px){.wrap{padding:12px}.logo{width:52px;height:52px}}
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="wrap">
+    <header>
+      <div class="logo">DG</div>
+      <div>
+        <h1>Design & Dev Tools — Free / Affordable Alternatives</h1>
+        <p class="lead">नीचे हर category के वैकल्पिक टूल "line by line" दिए गए हैं — डाउनलोड/ट्रायल के लिए बटन पर क्लिक करें।</p>
+      </div>
+    </header>
+
+    <!-- Grid of categories -->
+    <main class="grid" aria-live="polite">
+
+      <!-- Graphics / Photoshop alternatives -->
+      <section class="card" id="graphics">
+        <h3>Photoshop / Raster Editing</h3>
+        <p>Photoshop के मुफ़्त/सस्ते विकल्प — GIMP और Krita दोनों पावरफ़ुल हैं।</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>GIMP</b><span>Free, open-source raster editor — Photoshop जैसा बेसिक और एडवांस टूल्स</span></div>
+            <a class="btn" href="https://www.gimp.org" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>Krita</b><span>Free, focused on digital painting — artists के लिए बढ़िया</span></div>
+            <a class="btn" href="https://krita.org" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Vector / Illustrator alternatives -->
+      <section class="card" id="vector">
+        <h3>Illustrator / Vector Editing</h3>
+        <p>Adobe Illustrator का फ्री विकल्प — Inkscape; सस्ता प्रो विकल्प — Affinity Designer।</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>Inkscape</b><span>Free, open-source vector editor — SVG friendly</span></div>
+            <a class="btn" href="https://inkscape.org" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>Affinity Designer</b><span>Paid (one-time), professional alternative to Illustrator</span></div>
+            <a class="btn" href="https://affinity.serif.com" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- CorelDRAW alternatives -->
+      <section class="card" id="corel">
+        <h3>CorelDRAW</h3>
+        <p>CorelDRAW के विकल्प और workflow tips (आप .cdr को SVG/PDF में एक्सपोर्ट करें)</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>Corel (Trial)</b><span>Official 15-day trial — अगर आप original अनुभव चाहते हैं</span></div>
+            <a class="btn" href="https://www.coreldraw.com" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>Inkscape</b><span>Open-source alternative — SVG में export/import आसान</span></div>
+            <a class="btn" href="https://inkscape.org" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>Affinity Designer</b><span>One-time purchase, pro features — good for print and vector</span></div>
+            <a class="btn" href="https://affinity.serif.com" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Video editing -->
+      <section class="card" id="video">
+        <h3>Video Editing</h3>
+        <p>Premiere के मुफ्त विकल्प — DaVinci Resolve और Shotcut।</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>DaVinci Resolve</b><span>Free & studio-grade color/FA/edits — heavy but powerful</span></div>
+            <a class="btn" href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>Shotcut</b><span>Lightweight, open-source video editor — simple edits</span></div>
+            <a class="btn" href="https://shotcut.org" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Office suites -->
+      <section class="card" id="office">
+        <h3>Microsoft Office</h3>
+        <p>Office के मुफ़्त alternatives — LibreOffice और OnlyOffice।</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>LibreOffice</b><span>Free, full-featured office suite (Writer, Calc, Impress)</span></div>
+            <a class="btn" href="https://www.libreoffice.org" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>OnlyOffice</b><span>Modern UI, good MS-compatibility</span></div>
+            <a class="btn" href="https://www.onlyoffice.com" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- PDF editors -->
+      <section class="card" id="pdf">
+        <h3>PDF Tools</h3>
+        <p>Paid PDF editor के लिए सस्ते/free alternatives</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>PDFsam</b><span>Free, split/merge and basic PDF tasks</span></div>
+            <a class="btn" href="https://pdfsam.org" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>Foxit Reader</b><span>Free reader with editing/upgrading options</span></div>
+            <a class="btn" href="https://www.foxit.com" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- IDEs / Developer tools -->
+      <section class="card" id="dev">
+        <h3>IDEs & Development Tools</h3>
+        <p>Popular free IDEs — VS Code और PyCharm Community</p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta"><b>VS Code</b><span>Free, extensible code editor by Microsoft</span></div>
+            <a class="btn" href="https://code.visualstudio.com" target="_blank" rel="noopener">Official</a>
+          </li>
+          <li class="item">
+            <div class="meta"><b>PyCharm Community</b><span>Free Python IDE (Community Edition)</span></div>
+            <a class="btn" href="https://www.jetbrains.com/pycharm/download" target="_blank" rel="noopener">Official</a>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer>
+      यह एक सिंगल-फ़ाइल टेम्पलेट है — आप चाहें तो मैं इसे line-by-line समझाते हुए कमेंट्स जोड़ दूँ या किसी category में और tools जोड़ दूँ।
+    </footer>
+
+  </div>
+</body>
+</html>
